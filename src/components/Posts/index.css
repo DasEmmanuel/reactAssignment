@@ -1,0 +1,22 @@
+.posts_dashBoard_ctn {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.main_heading {
+  font-family: 'Poetsen One', sans-serif;
+  font-size: 50px;
+  color: #074173;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.posts_ctn {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

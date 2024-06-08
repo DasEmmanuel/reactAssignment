@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.comments_dashBoard_ctn {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.menuCtn {
+  list-style-type: none;
+  background-color: #eeeeee;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: auto;
+  padding: 10px;
+}
+.menuLine {
+  width: 100%;
+  background-color: #c4dfdf;
+  border: none;
+  outline: none;
+  height: 1px;
+}
+.menuItem {
+  font-family: 'Poetsen One', sans-serif;
+  color: #074173;
+  font-size: 18px;
+}
+.menulinkItem {
+  text-decoration: none;
+}
+.main_heading {
+  font-family: 'Poetsen One', sans-serif;
+  font-size: 50px;
+  color: #074173;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.loaderCtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.searchInput_Ctn {
+  border: 2px solid #3abef9;
+  width: 600px;
+  border-radius: 30px;
+  display: flex;
+}
+.searchInput {
+  height: 40px;
+  width: 550px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 20px;
+}
+
+.searchIconCtn {
+  background-color: #a7e6ff;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.searchIcon {
+  font-size: 25px;
+}
+.comments_ctn {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  overflow: auto;
+}
+
+@media (max-width: 700px) {
+  .main_heading {
+    font-size: 30px;
+  }
+  .searchInput_Ctn {
+    width: 80vw;
+  }
+  .searchInput {
+    width: 75vw;
+  }
+}
